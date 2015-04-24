@@ -9,22 +9,18 @@ similarity_list = [] #similarity ranging 0-1
 perfect_match   = [] #words that are exact matches
 words_max_score = {} # accounting for tuple of words with max score
 
+maxSimilarity  = 0 
+minSimilarity  = 1 
+
+
 for i in range(len(list1)):
     if i == len(list1) -1: #if only sublist, do not compare
         break
     sublist = list1[i]
 
-    maxSimilarity  = 0 #intoducing similarity 
-
     for word in sublist: #for finding match to every word in each title (represented as sublist)
         singular = wn.morphy(word) #convert to singular
         if singular != None:
-
-
-
-
-
-
             wordSynsets = wn.synsets(word)
             wordType = "%s " % (wordSynsets[0].lexname())
             if wordType[2]   == 'u': #no(u)n
@@ -40,12 +36,6 @@ for i in range(len(list1)):
             if not newWordSyn:
                 uncountedWords.append(word)
                 continue #move on to the next word
-
-
-
-
-
-
 
             nextSubList = list1[i+1]
             for word1 in nextSubList:
@@ -64,25 +54,34 @@ for i in range(len(list1)):
                         newWord1 = singular1 + '.r.01'
                     
                     newWordSyn1     = wn.synset(newWord1)
-                    tempSimilarity  = newWordSyn.path_similarity(newWordSyn1)
-
+                    tempSimilarity  = newWordSyn.wup_similarity(newWordSyn1)
 
 
                     if tempSimilarity   == None: #if no similarity, add to uncountedWords
                         uncountedWords.append((word,word1))
-                    elif tempSimilarity == 1: #if perfect, add word pair to perfect_match
-                        perfect_match.append((word,word1))
-                        similarity_list.append(tempSimilarity)
-                    # else: 
-                    #     similarity_list.append(tempSimilarity) #append similarities to list for plotting
 
-                    if tempSimilarity       > maxSimilarity: 
-                    	maxSimilarity       = tempSimilarity
-                    	(maxWord, maxWord1) = (word,word1)
+                    else:
+						if tempSimilarity       > maxSimilarity: 
+							maxSimilarity       = tempSimilarity
+							(maxWord, maxWord1) = (word,word1)
+						if tempSimilarity       < minSimilarity:
+							minSimilarity 		= tempSimilarity
+							(minWord,minWord1)  = (word,word1)
+						similarity_list.append(tempSimilarity)
+						if tempSimilarity       == 1:
+							perfect_match.append((word,word1))
 
+
+print "minSimilarity", minSimilarity
+print "maxSimilarity", maxSimilarity
+print "uncountedWords", uncountedWords
+print "lenuncounted", len(uncountedWords)
+
+print "similarity_list", similarity_list
+print "lensimilarity", len(similarity_list)
+print "exactword", perfect_match
+print "len exactword", len(perfect_match)
               
-print words_max_score
-
 
 # tutorial names? percentage? 
 # what're the words that account for max scores? # does that tell us something?
