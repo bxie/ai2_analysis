@@ -100,8 +100,28 @@
 
 
 
-%*** Citation Package ***
-\usepackage{natbib}
+
+% *** CITATION PACKAGES ***
+%
+\usepackage{cite}
+% cite.sty was written by Donald Arseneau
+% V1.6 and later of IEEEtran pre-defines the format of the cite.sty package
+% \cite{} output to follow that of IEEE. Loading the cite package will
+% result in citation numbers being automatically sorted and properly
+% "compressed/ranged". e.g., [1], [9], [2], [7], [5], [6] without using
+% cite.sty will become [1], [2], [5]--[7], [9] using cite.sty. cite.sty's
+% \cite will automatically add leading space, if needed. Use cite.sty's
+% noadjust option (cite.sty V3.8 and later) if you want to turn this off.
+% cite.sty is already installed on most LaTeX systems. Be sure and use
+% version 4.0 (2003-05-27) and later if using hyperref.sty. cite.sty does
+% not currently provide for hyperlinked citations.
+% The latest version can be obtained at:
+% http://www.ctan.org/tex-archive/macros/latex/contrib/cite/
+% The documentation is contained in the cite.sty file itself.
+
+
+
+
 
 
 % *** GRAPHICS RELATED PACKAGES ***
@@ -826,7 +846,7 @@ We show that the number of unique blocks in a project as well as the proportion 
 
 We argue that breaking the sequentiality of the tutorials will better prepare users to deviate from tutorials and create more original apps. While we recognize that some functionality of App Inventor may inherently be more challenging than others, tutorials should still introduce more diverse components in the basic tutorials. The tutorials should also be displayed in such a way where users have a choice as to what to start with. We reiterate that our analysis is limited to the tutorials created by the MIT App Inventor team; the tutorials and curriculums made by other groups and individuals are out of the scope of this paper.
 
-The existence of non-functional projects and recreations of tutorials in our dataset offer opportunities for future work. While we filtered out projects that were certainly non-functional by ensuring all projects had the minimum number of components and blocks, there still exist projects that do not have any functionality. Disregarding blocks that are not connected to other blocks and components with no programmed functionality would better filter out the non-functional projects. And while our findings suggest that the learnability score closely follows earlier tutorials, at least 20\% of the projects analyzed are recreations of the tutorials. Analyzing projects that are truly original would result in more robust findings.
+The existence of non-functional projects and recreations of tutorials in our dataset offer opportunities for future work. While we filtered out projects that were certainly non-functional by ensuring all projects had the minimum number of components and blocks, there still exist projects that do not have any functionality. Disregarding blocks that are not connected to other blocks and components with no programmed functionality would better filter out the non-functional projects. And while our findings suggest that the learnability score closely follows earlier tutorials, at least 20\% of the projects analyzed are recreations of the tutorials. Analyzing projects that are truly original would result in more robust findings. 
 
 \section*{Acknowledgments}
 
@@ -862,13 +882,20 @@ We thank Jeffery Schiller (MIT App Inventor) for help collecting the data and Il
 %  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
 
 \newpage
+\begin{thebibliography}{1}
 
 %\bibitem{IEEEhowto:kopka}
 %H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
 %  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.  
 
-\bibliographystyle{plainnat}
-\bibliography{bibfile}
+%\bibitem{}
+%D.  Wolber, H.  Abelson and M.  Friedman, \emph{Democratizing Computing with App Inventor}, SIGMOBILE Mob. Comput. Commun. Rev., vol. 18, no. 4, pp. 53-58, 2015.
+
+
+
+
+\end{thebibliography}
+
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.
@@ -959,6 +986,8 @@ We thank Jeffery Schiller (MIT App Inventor) for help collecting the data and Il
 
 
 % use section* for acknowledgement
+
+
 
 
 
