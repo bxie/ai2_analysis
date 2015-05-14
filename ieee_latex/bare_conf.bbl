@@ -1,0 +1,52 @@
+\begin{thebibliography}{7}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Google(2015)]{blockly}
+Google.
+\newblock Blockly, 2015.
+\newblock URL \url{https://developers.google.com/blockly/}.
+
+\bibitem[Okerlund and Turbak(2013)]{blocks:okerlund}
+Johanna Okerlund and Franklyn Turbak.
+\newblock A preliminary analysis of app inventor blocks programs, 2013.
+\newblock URL \url{http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poster.pdf}.
+\newblock Poster presented at the IEEE Symposium on Visual Languages and
+  Human-Centric Computing (VLHCC 2013), Sept 17, San Jose, CA.
+
+\bibitem[Team(2015{\natexlab{a}})]{ai_home}
+MIT App~Inventor Team.
+\newblock Mit app inventor | explore mit app inventor, 2015{\natexlab{a}}.
+\newblock URL \url{http://appinventor.mit.edu/explore}.
+
+\bibitem[Team(2015{\natexlab{b}})]{ai_tutorials}
+MIT App~Inventor Team.
+\newblock Tutorials for app inventor 2, 2015{\natexlab{b}}.
+\newblock URL \url{http://appinventor.mit.edu/explore/ai2/tutorialsd41d.html}.
+
+\bibitem[Turbak(2014)]{thinking:turbak}
+Franklyn Turbak.
+\newblock Mobile computational thinking in appinventor 2, 2014.
+\newblock URL \url{http://cs.wellesley.edu/~tinkerblocks/RIC14-talk.pdf}.
+\newblock Slides of a talk given to {CSTA-RI},April 10, 2014, Rhode Island
+  College, RI.
+
+\bibitem[Turbak et~al.(2014)Turbak, Wolber, and Medlock-Walton]{naming:turbak}
+Franklyn Turbak, David Wolber, and Paul Medlock-Walton.
+\newblock The design of naming features in app inventor 2.
+\newblock \emph{2014 IEEE Symposium on Visual Languages and Human-Centric
+  Computing (VL/HCC)}, 2014.
+\newblock \doi{10.1109/vlhcc.2014.6883034}.
+\newblock URL \url{http://dx.doi.org/10.1109/vlhcc.2014.6883034}.
+
+\bibitem[Van~Krevelen and Poelman(2010)]{situated:gershman}
+DWF Van~Krevelen and R~Poelman.
+\newblock A survey of augmented reality technologies, applications and
+  limitations.
+\newblock \emph{International Journal of Virtual Reality}, 9\penalty0
+  (2):\penalty0 1, 2010.
+
+\end{thebibliography}
