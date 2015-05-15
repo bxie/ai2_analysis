@@ -9,6 +9,19 @@
 Google.
 \newblock Blockly, 2015.
 \newblock URL \url{https://developers.google.com/blockly/}.
+\newblock Online, last accessed 10-April-2015.
+
+\bibitem[Inventor(2015{\natexlab{a}})]{ai_home}
+MIT~App Inventor.
+\newblock Mit app inventor | explore mit app inventor, 2015{\natexlab{a}}.
+\newblock URL \url{http://appinventor.mit.edu/explore}.
+\newblock Online, last accessed 14-May-2015.
+
+\bibitem[Inventor(2015{\natexlab{b}})]{ai_tutorials}
+MIT~App Inventor.
+\newblock Tutorials for app inventor 2, 2015{\natexlab{b}}.
+\newblock URL \url{http://a,ppinventor.mit.edu/explore/ai2/tutorialsd41d.html}.
+\newblock Online; last accessed May-14-2015.
 
 \bibitem[Okerlund and Turbak(2013)]{blocks:okerlund}
 Johanna Okerlund and Franklyn Turbak.
@@ -16,16 +29,6 @@ Johanna Okerlund and Franklyn Turbak.
 \newblock URL \url{http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poster.pdf}.
 \newblock Poster presented at the IEEE Symposium on Visual Languages and
   Human-Centric Computing (VLHCC 2013), Sept 17, San Jose, CA.
-
-\bibitem[Team(2015{\natexlab{a}})]{ai_home}
-MIT App~Inventor Team.
-\newblock Mit app inventor | explore mit app inventor, 2015{\natexlab{a}}.
-\newblock URL \url{http://appinventor.mit.edu/explore}.
-
-\bibitem[Team(2015{\natexlab{b}})]{ai_tutorials}
-MIT App~Inventor Team.
-\newblock Tutorials for app inventor 2, 2015{\natexlab{b}}.
-\newblock URL \url{http://appinventor.mit.edu/explore/ai2/tutorialsd41d.html}.
 
 \bibitem[Turbak(2014)]{thinking:turbak}
 Franklyn Turbak.
@@ -41,6 +44,7 @@ Franklyn Turbak, David Wolber, and Paul Medlock-Walton.
   Computing (VL/HCC)}, 2014.
 \newblock \doi{10.1109/vlhcc.2014.6883034}.
 \newblock URL \url{http://dx.doi.org/10.1109/vlhcc.2014.6883034}.
+\newblock Online; last accessed April-29-2015.
 
 \bibitem[Van~Krevelen and Poelman(2010)]{situated:gershman}
 DWF Van~Krevelen and R~Poelman.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 MAY 2015 02:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 MAY 2015 01:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,15 +225,14 @@ File: fig1.png Graphic file (type png)
  <use fig1.png>
 Package pdftex.def Info: fig1.png used on input line 440.
 (pdftex.def)             Requested size: 240.39659pt x 96.1562pt.
- [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./fig1.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 463.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 463.
+ [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+
+ <./fig1.png>]
 <simple_blocks.png, id=14, 410.53375pt x 145.54375pt>
 File: simple_blocks.png Graphic file (type png)
  <use simple_blocks.png>
@@ -416,9 +415,6 @@ File: multipliers.png Graphic file (type png)
 Package pdftex.def Info: multipliers.png used on input line 749.
 (pdftex.def)             Requested size: 253.04987pt x 180.16438pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 <component_blocks.png, id=32, 690.58pt x 189.70876pt>
 File: component_blocks.png Graphic file (type png)
 
@@ -426,10 +422,7 @@ File: component_blocks.png Graphic file (type png)
 Package pdftex.def Info: component_blocks.png used on input line 764.
 (pdftex.def)             Requested size: 253.04987pt x 69.51376pt.
 
-Underfull \vbox (badness 1226) has occurred while \output is active []
-
- [5 <./multipliers.png> <./component_blocks.png>]
-<learnability_score.png, id=38, 508.90125pt x 387.4475pt>
+<learnability_score.png, id=33, 508.90125pt x 387.4475pt>
 File: learnability_score.png Graphic file (type png)
 
 <use learnability_score.png>
@@ -439,15 +432,21 @@ Package pdftex.def Info: learnability_score.png used on input line 778.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./learnability_score.png>] (./bare_conf.bbl
-Underfull \hbox (badness 2334) in paragraph at lines 26--29
-[]\OT1/ptm/m/n/10 MIT App In-ven-tor Team.  Tu-to-ri-als for app in-ven-tor
+[5 <./multipliers.png> <./component_blocks.png>] [6 <./learnability_score.png>]
+(./bare_conf.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 / / cs . wellesley . edu / []tinkerblocks / VLHCC13-[]poster . 
+pdf$.
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 26--29
-\OT1/ptm/m/n/10 2, 2015b.  URL $http : / / appinventor . mit . edu / explore / 
-ai2 /
+Underfull \hbox (badness 3803) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 Lang-u-ages and Human-Centric Com-put-ing (VL-HCC
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 41--48
+[]\OT1/ptm/m/n/10 Franklyn Tur-bak, David Wol-ber, and Paul Medlock-
  []
 
 )
@@ -468,11 +467,11 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  2659 strings out of 493117
  41284 string characters out of 6135433
- 112841 words of memory out of 5000000
+ 112857 words of memory out of 5000000
  6105 multiletter control sequences out of 15000+600000
  35809 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 37i,9n,23p,1028b,260s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,28p,1028b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
@@ -480,7 +479,7 @@ fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (7 pages, 271005 bytes).
+Output written on bare_conf.pdf (7 pages, 271018 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
