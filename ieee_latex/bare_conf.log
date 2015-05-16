@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 MAY 2015 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 MAY 2015 00:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -367,11 +367,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 581--582
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] <pie_group.png, id=24, 814.04124pt x 685.56125pt>
+[3] <pie_group.png, id=24, 813.0375pt x 685.56125pt>
 File: pie_group.png Graphic file (type png)
  <use pie_group.png>
 Package pdftex.def Info: pie_group.png used on input line 638.
-(pdftex.def)             Requested size: 227.74333pt x 191.79892pt.
+(pdftex.def)             Requested size: 227.74333pt x 192.02907pt.
 
 <boxplot.png, id=25, 685.56125pt x 515.9275pt>
 File: boxplot.png Graphic file (type png)
@@ -409,11 +409,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--696
  []
 
 [4 <./pie_group.png> <./boxplot.png>]
-<multipliers.png, id=31, 805.0075pt x 573.14125pt>
+<multipliers.png, id=31, 792.9625pt x 574.145pt>
 File: multipliers.png Graphic file (type png)
  <use multipliers.png>
 Package pdftex.def Info: multipliers.png used on input line 749.
-(pdftex.def)             Requested size: 253.04987pt x 180.16438pt.
+(pdftex.def)             Requested size: 253.04987pt x 183.22203pt.
 
 <component_blocks.png, id=32, 690.58pt x 189.70876pt>
 File: component_blocks.png Graphic file (type png)
@@ -433,12 +433,7 @@ Package pdftex.def Info: learnability_score.png used on input line 778.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./multipliers.png> <./component_blocks.png>] [6 <./learnability_score.png>]
-(./bare_conf.bbl
-Underfull \hbox (badness 1430) in paragraph at lines 14--19
-[]\OT1/ptm/m/n/10 Franklyn Tur-bak, David Wol-ber, and Paul Medlock-
- []
-
-)
+(./bare_conf.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -454,23 +449,24 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2649 strings out of 493117
- 41077 string characters out of 6135433
- 112662 words of memory out of 5000000
- 6095 multiletter control sequences out of 15000+600000
+ 2657 strings out of 493117
+ 41273 string characters out of 6135433
+ 112677 words of memory out of 5000000
+ 6103 multiletter control sequences out of 15000+600000
  35809 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 37i,9n,28p,1028b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,28p,1028b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (7 pages, 262914 bytes).
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (7 pages, 266510 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
