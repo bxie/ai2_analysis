@@ -433,7 +433,7 @@ MIT App Inventor is a web service that enables users with little to no previous 
 %\hfill April 3, 2015
 
 %\subsection{MIT App Inventor}
-MIT App Inventor is an environment that leverages a blocks-based visual programming language to create mobile apps for Android devices. An App Inventor project consists of a set of components and a set of blocks which give the components functionality. Components include items seen on the app (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, accelerometer, speech recognizer, GPS location sensor).\cite{blockly} The app's functionality is programmed in Blockly, a visual blocks-based programming language. For example, Figure 1 shows blocks for an app to prevent texting while driving. When a text is received, a predefined message is sent back to the person who sent the original text\cite{ai_home}
+MIT App Inventor is an environment that leverages a blocks-based visual programming language to create mobile apps for Android devices\citep{ai_home}. An App Inventor project consists of a set of components and a set of blocks which give the components functionality. Components include items seen on the app (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, accelerometer, speech recognizer, GPS location sensor).The app's functionality is programmed in Blockly, a visual blocks-based programming language.\cite{blockly} For example, Figure 1 shows blocks for an app to prevent texting while driving. When a text is received, a predefined message is sent back to the person who sent the original text
 
 \begin{figure}[h!]
 	\centering
@@ -442,13 +442,13 @@ MIT App Inventor is an environment that leverages a blocks-based visual programm
 	\label{FIgure 1: Label}
 \end{figure}
 
-There have been two major versions of App Inventor. App Inventor Classic (also known as App Inventor 1) was released in 2009 and ran the blocks editor from a separate Java application. In late 2013, App Inventor 2 (AI2) was released; the blocks editor now runs in a web browser as a Javascript program.\cite{naming:turbak} Although both versions of App Inventor are currently still in use, as of February 2015, 90\% of App Inventor users use App Inventor 2. For this reason, this research focuses on App Inventor 2 data.
+There have been two major versions of App Inventor. App Inventor Classic (also known as App Inventor 1) was released in 2009 and ran the blocks editor from a separate Java application. In late 2013, App Inventor 2 (AI2) was released; the blocks editor now runs in a web browser as a Javascript program. Although both versions of App Inventor are currently still in use, as of February 2015, 90\% of App Inventor users use App Inventor 2. For this reason, this research focuses on App Inventor 2 data\citep{naming:turbak}.
 
-App Inventor is taught at both grade school and college level, to a broad audience. Reports on courses taught depict App Inventor being used to create very diverse apps. These apps range from apps that discourage texting while driving to apps that track school buses to apps that organize community service cleanups.\cite{thinking:turbak} The pattern we see is that App Inventor enables "situated computing." This quarter-century old concept suggests that the convergence of computing, connectivity, and content enables users to use computing to bridge the gap between intentions and actions. App Inventor enables users to leverage their mobile devices to solve everyday problems they encounter. \cite{situated:gershman}
+App Inventor is taught at both grade school and college level, to a broad audience. Reports on courses taught depict App Inventor being used to create very diverse apps. These apps range from apps that discourage texting while driving to apps that track school buses \cite{thinking:turbak}. to apps that organize community service cleanups. The pattern we see is that App Inventor enables "situated computing." This quarter-century old concept suggests that the convergence of computing, connectivity, and content enables users to use computing to bridge the gap between intentions and actions. App Inventor enables users to leverage their mobile devices to solve everyday problems they encounter. 
 
-App Inventor also has copious resources for self-learners, typically in the form of self-contained tutorials. The App Inventor resources page includes 26 tutorials ranging from basic to intermediate to advanced difficulty. Most tutorials involve creating an entire functioning app from start to finish. Each tutorial typically focuses on either a new component or additional functionality for a previously introduced component.\cite{ai_tutorials}
+App Inventor also has copious resources for self-learners, typically in the form of self-contained tutorials. The App Inventor resources page includes 26 tutorials ranging from basic to intermediate to advanced difficulty. Most tutorials involve creating an entire functioning app from start to finish. Each tutorial typically focuses on either a new component or additional functionality for a previously introduced component.
 
-To date, over 3.1 million users from 195 countries have created over 8.2 million apps with App Inventor. There are over 100,000 weekly active users.\cite{ai_home}
+To date, over 3.1 million users from 195 countries have created over 8.2 million apps with App Inventor. There are over 100,000 weekly active users.
 
 \subsection{Objective}
 We seek to better understand what users create with App Inventor and determine what kinds of apps the App Inventor environment lends itself towards creating. We define metrics to measure the intricacy of the projects, measuring the proficiency of the blocks code used to program the apps. From this, we determine how easy it is to create an app of a certain functionality as well as the extent of capabilities App Inventor provides to implement certain functions. 
@@ -458,7 +458,7 @@ We analyze a random sample of projects and group them based on the components us
 In this paper, we explain our technical approach to extracting information from raw project data, filtering and grouping projects, and comparing the intricacy of groups given our metrics.  We then discuss our findings in the context of the App Inventor service and its teaching resources.
 
 \subsection{Previous Work}
-Previously, analysis of App Inventor Classic has been done mostly at a user level.\cite{blocks:okerlund} Some of the notable findings include:
+Previously, analysis of App Inventor Classic has been done mostly at a user level. Some of the notable findings include:
 \begin{itemize}
 	\item 30\% of projects have no blocks and therefore are not functional.
 	\item Nearly 50\% of users do not have a single block or component in their projects.
@@ -476,7 +476,7 @@ Our source data is 5,228 random App Inventor 2 projects. We randomly selected pr
 
 Of the 5,228 projects sampled...
 \begin{itemize}
-	\item At leasts 20\% (1,031 projects) are recreations of tutorials. These recreations of the step-by-step tutorials were found by matching project names. We only look at the 25 tutorials from the App Inventor website, although there exist many other tutorials made by other groups and individuals.\cite{ai_tutorials} These tutorials are included in our dataset.
+	\item At leasts 20\% (1,031 projects) are recreations of tutorials. These recreations of the step-by-step tutorials were found by matching project names. We only look at the 25 tutorials from the App Inventor website, although there exist many other tutorials made by other groups and individuals. These tutorials are included in our dataset.
 	\item 16\% (845 projects) define procedures yet only 13\% (670 projects) call the procedures multiple times and use the procedures appropriately.	
 \end{itemize}
 
@@ -867,7 +867,7 @@ We thank Jeffery Schiller (MIT App Inventor) for help collecting the data and Il
 %H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
 %  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.  
 
-\bibliographystyle{plainnat}
+\bibliographystyle{unsrt}
 \bibliography{bibfile}
 
 % An example of a floating figure using the graphicx package.
