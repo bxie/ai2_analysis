@@ -23,23 +23,22 @@
 
 \bibitem{ai_home}
 \BIBentryALTinterwordspacing
-M.~AppInventor, ``Mit app inventor | explore mit app inventor,'' 2015, online;
-  last accessed 14-May-2015. [Online]. Available:
-  \url{http://appinventor.mit.edu/explore}
+MITAppInventor, ``Mit app inventor | explore mit app inventor,'' 2015.
+  [Online]. Available: \url{http://appinventor.mit.edu/explore}
 \BIBentrySTDinterwordspacing
 
 \bibitem{blockly}
 \BIBentryALTinterwordspacing
-Google, ``Blockly,'' 2015, online; last accessed 10-April-2015. [Online].
-  Available: \url{https://developers.google.com/blockly/}
+Google, ``Blockly,'' 2015. [Online]. Available:
+  \url{https://developers.google.com/blockly/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{naming:turbak}
 \BIBentryALTinterwordspacing
 F.~Turbak, D.~Wolber, and P.~Medlock-Walton, ``The design of naming features in
   app inventor 2,'' \emph{2014 IEEE Symposium on Visual Languages and
-  Human-Centric Computing (VL/HCC)}, 2014, online; last accessed 29-April-2015.
-  [Online]. Available: \url{http://dx.doi.org/10.1109/vlhcc.2014.6883034}
+  Human-Centric Computing (VL/HCC)}, 2014. [Online]. Available:
+  \url{http://dx.doi.org/10.1109/vlhcc.2014.6883034}
 \BIBentrySTDinterwordspacing
 
 \bibitem{thinking:turbak}
@@ -53,7 +52,7 @@ F.~Turbak, ``Mobile computational thinking in appinventor 2,'' 2014, slides of
 \BIBentryALTinterwordspacing
 D.~Wolber, H.~Abelson, and M.~Friedman, ``Democratizing computing with app
   inventor,'' \emph{SIGMOBILE Mob. Comput. Commun. Rev.}, vol.~18, no.~4, pp.
-  53--58, 2015, online; last accessed 1-May-2015. [Online]. Available:
+  53--58, 2015. [Online]. Available:
   \url{http://dx.doi.org/10.1145/2721914.2721935}
 \BIBentrySTDinterwordspacing
 
