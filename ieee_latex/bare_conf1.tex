@@ -1,3 +1,4 @@
+
 %% bare_conf.tex
 %% V1.3
 %% 2007/01/11
@@ -100,8 +101,7 @@
 
 
 %*** Citation Package ***
-\usepackage[numbers]{natbib}
-\usepackage{url}
+\usepackage{natbib}
 
 
 % *** GRAPHICS RELATED PACKAGES ***
@@ -433,7 +433,7 @@ MIT App Inventor is a web service that enables users with little to no previous 
 %\hfill April 3, 2015
 
 %\subsection{MIT App Inventor}
-MIT App Inventor is an environment that leverages a blocks-based visual programming language to create mobile apps for Android devices. An App Inventor project consists of a set of components and a set of blocks which give the components functionality. Components include items seen on the app (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, accelerometer, speech recognizer, GPS location sensor).\cite{blockly} The app's functionality is programmed in Blockly, a visual blocks-based programming language. For example, Figure 1 shows blocks for an app to prevent texting while driving. When a text is received, a predefined message is sent back to the person who sent the original text\cite{ai_home}
+MIT App Inventor is an environment that leverages a blocks-based visual programming language to create mobile apps for Android devices. An App Inventor project consists of a set of components and a set of blocks which give the components functionality. Components include items seen on the app (e.g. buttons, text boxes, images, drawing canvas) as well as non-visible items (e.g. camera, accelerometer, speech recognizer, GPS location sensor). The app's functionality is programmed in Blockly, a visual blocks-based programming language. For example, Figure 1 shows blocks for an app to prevent texting while driving. When a text is received, a predefined message is sent back to the person who sent the original text.
 
 \begin{figure}[h!]
 	\centering
@@ -442,9 +442,9 @@ MIT App Inventor is an environment that leverages a blocks-based visual programm
 	\label{FIgure 1: Label}
 \end{figure}
 
-There have been two major versions of App Inventor. App Inventor Classic (also known as App Inventor 1) was released in 2009 and ran the blocks editor from a separate Java application. In late 2013, App Inventor 2 (AI2) was released; the blocks editor now runs in a web browser as a Javascript program.\cite{naming:turbak} Although both versions of App Inventor are currently still in use, as of February 2015, 90\% of App Inventor users use App Inventor 2. For this reason, this research focuses on App Inventor 2 data.
+There have been two major versions of App Inventor. App Inventor Classic (also known as App Inventor 1) was released in 2009 and ran the blocks editor from a separate Java application. In late 2013, App Inventor 2 (AI2) was released; the blocks editor now runs in a web browser as a Javascript program.\cite{naming:turbak} Although both versions of App Inventor are currently still in use, as of February 2015, 90\% of App Inventor users use App Inventor 2.\cite{ai_usage} For this reason, this research focuses on App Inventor 2 data.
 
-App Inventor is taught at both grade school and college level, to a broad audience. Reports on courses taught depict App Inventor being used to create very diverse apps. These apps range from apps that discourage texting while driving to apps that track school buses to apps that organize community service cleanups.\cite{thinking:turbak} The pattern we see is that App Inventor enables "situated computing." This quarter-century old concept suggests that the convergence of computing, connectivity, and content enables users to use computing to bridge the gap between intentions and actions. App Inventor enables users to leverage their mobile devices to solve everyday problems they encounter. \cite{situated:gershman}
+App Inventor is taught at both grade school and college level, to a broad audience. Reports on courses taught depict App Inventor being used to create very diverse apps. These apps range from apps that discourage texting while driving to apps that track school buses to apps that organize community service cleanups.\cite{thinking:turbak} The pattern we see is that App Inventor enables "situated computing." This quarter-century old concept suggests that the convergence of computing, connectivity, and content enables users to use computing to bridge the gap between intentions and actions. App Inventor enables users to leverage their mobile devices to solve everyday problems they encounter. \cite{situated:hirakawa}
 
 App Inventor also has copious resources for self-learners, typically in the form of self-contained tutorials. The App Inventor resources page includes 26 tutorials ranging from basic to intermediate to advanced difficulty. Most tutorials involve creating an entire functioning app from start to finish. Each tutorial typically focuses on either a new component or additional functionality for a previously introduced component.\cite{ai_tutorials}
 
@@ -782,7 +782,7 @@ A group is said to have high learnability if it does not require many different 
 
 It is not surprising that Basic apps have the greatest learnability score and are therefore the easiest to learn. This follows since we define the Basic group as only containing user interface components and no other types of components. The Drawing and Media groups also have high learnability scores. This is likely because the tutorials introduced earlier on create Drawing apps and Media apps. The linear nature of App Inventor's tutorials causes the learnability score to follow closely with the sequence of tutorials.
 
-The close correlation with learning scores and the sequence of tutorials suggests that users build off of knowledge from only the tutorials they complete. On the App Inventor website, tutorials are displayed in linear order and have levels ranging from "Basic" to "Intermediate" to "Advanced". Table 4 shows what functionality groups tutorials fit into. Most users tend to start at the basic tutorials but the number of tutorials made until users creates their own original projects varies. It is safe to assume that the earlier a tutorial appears in this sequence, the more users will use it. We see Drawing, Media and Sensor apps appear as basic tutorials; they are also have the highest learnability score. There are no Lego apps, and the very low learnability score reflects that. And although there are several tutorials involving storage, they appear under the advanced section. The lower learnability score suggests both that these later tutorials are viewed less and that storage apps are more intricate.
+The close correlation with learning scores and the sequence of tutorials suggests that users build off of knowledge from only the tutorials they complete. On the App Inventor website, tutorials are displayed in linear order and have levels ranging from "Basic" to "Intermediate" to "Advanced".\cite{ai_tutorials} Table 4 shows what functionality groups tutorials fit into. Most users tend to start at the basic tutorials but the number of tutorials made until users creates their own original projects varies. It is safe to assume that the earlier a tutorial appears in this sequence, the more users will use it. We see Drawing, Media and Sensor apps appear as basic tutorials; they are also have the highest learnability score. There are no Lego apps, and the very low learnability score reflects that. And although there are several tutorials involving storage, they appear under the advanced section. The lower learnability score suggests both that these later tutorials are viewed less and that storage apps are more intricate.
 
 \begin{table}[h!]
 % increase table row spacing, adjust to taste
@@ -866,6 +866,7 @@ We thank Jeffery Schiller (MIT App Inventor) for help collecting the data and Il
 %\bibitem{IEEEhowto:kopka}
 %H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
 %  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.  
+
 
 \bibliographystyle{plainnat}
 \bibliography{bibfile}
@@ -959,6 +960,8 @@ We thank Jeffery Schiller (MIT App Inventor) for help collecting the data and Il
 
 
 % use section* for acknowledgement
+
+
 
 
 

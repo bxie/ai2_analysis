@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 MAY 2015 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 MAY 2015 23:59
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **bare_conf.tex
 (./bare_conf.tex
@@ -93,10 +92,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtmpitemindent=\dimen116
 \c@IEEEbiography=\count90
 \@IEEEtranrubishbin=\box26
-) (/usr/local/texlive/2014/texmf-dist/tex/latex/cite/cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip44
+\bibsep=\skip45
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count91
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
@@ -125,7 +130,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count91
+\Gread@gobject=\count92
 ))
 \Gin@req@height=\dimen117
 \Gin@req@width=\dimen118
@@ -133,31 +138,31 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./bare_conf.aux)
 \openout1 = `bare_conf.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 351.
-LaTeX Font Info:    ... okay on input line 351.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 331.
+LaTeX Font Info:    ... okay on input line 331.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count92
+\scratchcounter=\count93
 \scratchdimen=\dimen119
 \scratchbox=\box27
-\nofMPsegments=\count93
-\nofMParguments=\count94
+\nofMPsegments=\count94
+\nofMParguments=\count95
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count95
+\MPscratchCnt=\count96
 \MPscratchDim=\dimen120
-\MPnumerator=\count96
-\makeMPintoPDFobject=\count97
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks17
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -206,24 +211,24 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 411.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 391.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 411.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 391.
 
 <fig1.png, id=1, 617.30624pt x 246.9225pt>
 File: fig1.png Graphic file (type png)
  <use fig1.png>
-Package pdftex.def Info: fig1.png used on input line 460.
+Package pdftex.def Info: fig1.png used on input line 440.
 (pdftex.def)             Requested size: 240.39659pt x 96.1562pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 483.
+(Font)              <7> on input line 463.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 483.
+(Font)              <5> on input line 463.
  [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -231,131 +236,131 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 <simple_blocks.png, id=14, 410.53375pt x 145.54375pt>
 File: simple_blocks.png Graphic file (type png)
  <use simple_blocks.png>
-Package pdftex.def Info: simple_blocks.png used on input line 507.
+Package pdftex.def Info: simple_blocks.png used on input line 487.
 (pdftex.def)             Requested size: 139.17819pt x 49.33986pt.
 
 <palette.png, id=15, 245.91875pt x 360.34625pt>
 File: palette.png Graphic file (type png)
  <use palette.png>
-Package pdftex.def Info: palette.png used on input line 529.
+Package pdftex.def Info: palette.png used on input line 509.
 (pdftex.def)             Requested size: 101.2184pt x 148.31474pt.
  [2 <./simple_blocks.png> <./palette.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 558--558
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
 []\OT1/ptm/m/n/7 Group
  []
 
 
-Underfull \hbox (badness 5147) in paragraph at lines 558--558
+Underfull \hbox (badness 5147) in paragraph at lines 538--538
 []\OT1/ptm/m/n/7 Description of App
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 561--561
+Underfull \hbox (badness 2753) in paragraph at lines 541--541
 []\OT1/ptm/m/n/7 Only User In-ter-face
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
 []\OT1/ptm/m/n/7 Button, Im-age,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
 \OT1/ptm/m/n/7 La-bel, No-ti-fier,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
 []\OT1/ptm/m/n/7 Playing/recording of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 544--544
 []\OT1/ptm/m/n/7 At least 1 me-dia
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 []\OT1/ptm/m/n/7 Camera,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--565
+Underfull \hbox (badness 10000) in paragraph at lines 544--545
 \OT1/ptm/m/n/7 Text-ToSpeech,
  []
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 569--570
+Underfull \hbox (badness 2961) in paragraph at lines 549--550
 []\OT1/ptm/m/n/7 At least 1 draw-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 575--576
+Underfull \hbox (badness 10000) in paragraph at lines 555--556
 []\OT1/ptm/m/n/7 At least 1 sen-sor
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 []\OT1/ptm/m/n/7 Accelerometer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 \OT1/ptm/m/n/7 Sen-sor,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 556--557
 \OT1/ptm/m/n/7 Lo-ca-tion-Sen-sor,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 581--582
+Underfull \hbox (badness 10000) in paragraph at lines 561--562
 []\OT1/ptm/m/n/7 Communication via
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 583--584
+Underfull \hbox (badness 4403) in paragraph at lines 563--564
 []\OT1/ptm/m/n/7 Texting, Twit-ter,
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 588--589
+Underfull \hbox (badness 6032) in paragraph at lines 568--569
 []\OT1/ptm/m/n/7 At least 1 stor-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
 []\OT1/ptm/m/n/7 TinyDB,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 589--590
+Underfull \hbox (badness 10000) in paragraph at lines 569--570
 \OT1/ptm/m/n/7 Fu-sionta-ble-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 593--594
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 []\OT1/ptm/m/n/7 Networking with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
 []\OT1/ptm/m/n/7 ActivityStarter,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
 \OT1/ptm/m/n/7 Blue-tooth-Client,
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 599--600
+Underfull \hbox (badness 1509) in paragraph at lines 579--580
 []\OT1/ptm/m/n/7 Control Lego Mind-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--602
+Underfull \hbox (badness 10000) in paragraph at lines 581--582
 []\OT1/ptm/m/n/7 NxtDrive,
  []
 
@@ -365,41 +370,41 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [3] <pie_group.png, id=24, 814.04124pt x 685.56125pt>
 File: pie_group.png Graphic file (type png)
  <use pie_group.png>
-Package pdftex.def Info: pie_group.png used on input line 658.
+Package pdftex.def Info: pie_group.png used on input line 638.
 (pdftex.def)             Requested size: 227.74333pt x 191.79892pt.
 
 <boxplot.png, id=25, 685.56125pt x 515.9275pt>
 File: boxplot.png Graphic file (type png)
  <use boxplot.png>
-Package pdftex.def Info: boxplot.png used on input line 676.
+Package pdftex.def Info: boxplot.png used on input line 656.
 (pdftex.def)             Requested size: 253.04987pt x 190.43358pt.
 
-Overfull \hbox (0.6589pt too wide) in paragraph at lines 697--698
+Overfull \hbox (0.6589pt too wide) in paragraph at lines 677--678
 []\OT1/ptm/m/n/7 media| 
  []
 
 
-Overfull \hbox (3.76688pt too wide) in paragraph at lines 698--699
+Overfull \hbox (3.76688pt too wide) in paragraph at lines 678--679
 []\OT1/ptm/m/n/7 storage| 
  []
 
 
-Overfull \hbox (5.32094pt too wide) in paragraph at lines 699--700
+Overfull \hbox (5.32094pt too wide) in paragraph at lines 679--680
 []\OT1/ptm/m/n/7 connect| 
  []
 
 
-Overfull \hbox (1.43593pt too wide) in paragraph at lines 701--702
+Overfull \hbox (1.43593pt too wide) in paragraph at lines 681--682
 []\OT1/ptm/m/n/7 sensor| 
  []
 
 
-Overfull \hbox (2.50858pt too wide) in paragraph at lines 706--706
+Overfull \hbox (2.50858pt too wide) in paragraph at lines 686--686
 []\OT1/ptm/m/n/7 mean| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 716--716
+Underfull \hbox (badness 10000) in paragraph at lines 696--696
 []\OT1/ptm/m/n/7 std.
  []
 
@@ -407,33 +412,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--716
 <multipliers.png, id=31, 805.0075pt x 573.14125pt>
 File: multipliers.png Graphic file (type png)
  <use multipliers.png>
-Package pdftex.def Info: multipliers.png used on input line 769.
+Package pdftex.def Info: multipliers.png used on input line 749.
 (pdftex.def)             Requested size: 253.04987pt x 180.16438pt.
 
 <component_blocks.png, id=32, 690.58pt x 189.70876pt>
 File: component_blocks.png Graphic file (type png)
 
 <use component_blocks.png>
-Package pdftex.def Info: component_blocks.png used on input line 784.
+Package pdftex.def Info: component_blocks.png used on input line 764.
 (pdftex.def)             Requested size: 253.04987pt x 69.51376pt.
 
 <learnability_score.png, id=33, 508.90125pt x 387.4475pt>
 File: learnability_score.png Graphic file (type png)
 
 <use learnability_score.png>
-Package pdftex.def Info: learnability_score.png used on input line 798.
+Package pdftex.def Info: learnability_score.png used on input line 778.
 (pdftex.def)             Requested size: 253.04987pt x 192.65912pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./multipliers.png> <./component_blocks.png>] [6 <./learnability_score.png>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 898--899
-\OT1/ptm/m/n/8 Avail-able: http://appinventor.mit.edu/explore/blogs/hal/2015/02
-/app-
+(./bare_conf.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 / / cs . wellesley . edu / []tinkerblocks / VLHCC13-[]poster . 
+pdf$.
  []
 
+
+Underfull \hbox (badness 3803) in paragraph at lines 27--32
+\OT1/ptm/m/n/10 Lang-u-ages and Human-Centric Com-put-ing (VL-HCC
+ []
+
+
+Underfull \hbox (badness 1430) in paragraph at lines 41--48
+[]\OT1/ptm/m/n/10 Franklyn Tur-bak, David Wol-ber, and Paul Medlock-
+ []
+
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -449,23 +465,24 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2328 strings out of 493117
- 37273 string characters out of 6135433
- 106818 words of memory out of 5000000
- 5781 multiletter control sequences out of 15000+600000
- 36945 words of font info for 66 fonts, out of 8000000 for 9000
+ 2659 strings out of 493117
+ 41284 string characters out of 6135433
+ 112857 words of memory out of 5000000
+ 6105 multiletter control sequences out of 15000+600000
+ 35809 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 37i,9n,23p,1062b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,28p,1028b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014
-/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (7 pages, 264176 bytes).
+.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/t
+exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on bare_conf.pdf (7 pages, 271016 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 70 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
