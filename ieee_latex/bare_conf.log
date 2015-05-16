@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 MAY 2015 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 MAY 2015 23:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -434,18 +434,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [5 <./multipliers.png> <./component_blocks.png>] [6 <./learnability_score.png>]
 (./bare_conf.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--32
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
 \OT1/ptm/m/n/10 / / cs . wellesley . edu / []tinkerblocks / VLHCC13-[]poster . 
 pdf$.
  []
 
 
-Underfull \hbox (badness 3803) in paragraph at lines 27--32
+Underfull \hbox (badness 3803) in paragraph at lines 34--39
 \OT1/ptm/m/n/10 Lang-u-ages and Human-Centric Com-put-ing (VL-HCC
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 41--48
+Underfull \hbox (badness 1430) in paragraph at lines 48--55
 []\OT1/ptm/m/n/10 Franklyn Tur-bak, David Wol-ber, and Paul Medlock-
  []
 
@@ -465,13 +465,13 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./bare_conf.aux) ) 
 Here is how much of TeX's memory you used:
- 2659 strings out of 493117
- 41284 string characters out of 6135433
- 112857 words of memory out of 5000000
- 6105 multiletter control sequences out of 15000+600000
+ 2662 strings out of 493117
+ 41353 string characters out of 6135433
+ 112906 words of memory out of 5000000
+ 6108 multiletter control sequences out of 15000+600000
  35809 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 37i,9n,28p,1028b,262s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,28p,1028b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8
 r.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.p
@@ -479,7 +479,7 @@ fb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2014/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bare_conf.pdf (7 pages, 271015 bytes).
+Output written on bare_conf.pdf (7 pages, 271961 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream
