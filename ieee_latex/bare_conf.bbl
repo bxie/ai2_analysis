@@ -23,13 +23,13 @@
 
 \bibitem{ai_home}
 \BIBentryALTinterwordspacing
-``Mit app inventor | explore mit app inventor,'' 2015, online; last accessed
+``Mit app inventor | explore mit app inventor,'' 2015, last accessed
   14-May-2015. [Online]. Available: \url{http://appinventor.mit.edu/explore}
 \BIBentrySTDinterwordspacing
 
 \bibitem{blockly}
 \BIBentryALTinterwordspacing
-``Blockly,'' 2015, online; last accessed 10-April-2015. [Online]. Available:
+``Blockly,'' 2015, last accessed 10-April-2015. [Online]. Available:
   \url{https://developers.google.com/blockly/}
 \BIBentrySTDinterwordspacing
 
@@ -37,7 +37,7 @@
 \BIBentryALTinterwordspacing
 F.~Turbak, D.~Wolber, and P.~Medlock-Walton, ``The design of naming features in
   app inventor 2,'' \emph{2014 IEEE Symposium on Visual Languages and
-  Human-Centric Computing (VL/HCC)}, 2014, online; last accessed 29-April-2015.
+  Human-Centric Computing (VL/HCC)}, 2014, last accessed 29-April-2015.
   [Online]. Available: \url{http://dx.doi.org/10.1109/vlhcc.2014.6883034}
 \BIBentrySTDinterwordspacing
 
@@ -52,7 +52,7 @@ F.~Turbak, ``Mobile computational thinking in appinventor 2,'' 2014, slides of
 \BIBentryALTinterwordspacing
 D.~Wolber, H.~Abelson, and M.~Friedman, ``Democratizing computing with app
   inventor,'' \emph{SIGMOBILE Mob. Comput. Commun. Rev.}, vol.~18, no.~4, pp.
-  53--58, 2015, online; last accessed 1-May-2015. [Online]. Available:
+  53--58, 2015, last accessed 1-May-2015. [Online]. Available:
   \url{http://dx.doi.org/10.1145/2721914.2721935}
 \BIBentrySTDinterwordspacing
 
@@ -64,23 +64,14 @@ A.~V. Gershman, J.~F. McCarthy, and A.~E. Fano, ``Situated computing: Bridging
 
 \bibitem{ai_tutorials}
 \BIBentryALTinterwordspacing
-``Tutorials for app inventor 2,'' 2015, online; last accessed 14-May-2015.
-  [Online]. Available:
-  \url{http://appinventor.mit.edu/explore/ai2/tutorialsd41d.html}
+``Tutorials for app inventor 2,'' 2015, last accessed 14-May-2015. [Online].
+  Available: \url{http://appinventor.mit.edu/explore/ai2/tutorialsd41d.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{CT:Grover}
 S.~Grover and R.~Pea, ``Computational thinking in k--12 a review of the state
   of the field,'' \emph{Educational Researcher}, vol.~42, no.~1, pp. 38--43,
   2013.
-
-\bibitem{blocks:okerlund}
-\BIBentryALTinterwordspacing
-J.~Okerlund and F.~Turbak, ``A preliminary analysis of app inventor blocks
-  programs,'' 2013, poster presented at the IEEE Symposium on Visual Languages
-  and Human-Centric Computing (VLHCC 2013), Sept 17, San Jose, CA. [Online].
-  Available: \url{http://cs.wellesley.edu/~tinkerblocks/VLHCC13-poster.pdf}
-\BIBentrySTDinterwordspacing
 
 \bibitem{TouchDevelop:Li}
 S.~Li, T.~Xie, and N.~Tillmann, ``A comprehensive field study of end-user
@@ -90,8 +81,8 @@ S.~Li, T.~Xie, and N.~Tillmann, ``A comprehensive field study of end-user
 
 \bibitem{pandas}
 \BIBentryALTinterwordspacing
-``Python data analysis library,'' 2015, online; last accessed 5-May-2015.
-  [Online]. Available: \url{http://pandas.pydata.org/}
+``Python data analysis library,'' 2015, last accessed 5-May-2015. [Online].
+  Available: \url{http://pandas.pydata.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{course_in_box}
@@ -131,9 +122,15 @@ A.~Repenning, D.~Webb, and A.~Ioannidou, ``Scalable game design and the
 
 \bibitem{concept_cards}
 \BIBentryALTinterwordspacing
-M.~A. Inventor, ``App inventor concept cards,'' online; last accessed
-  15-May-2015. [Online]. Available:
+M.~A. Inventor, ``App inventor concept cards,'' ast accessed 15-May-2015.
+  [Online]. Available:
   \url{http://appinventor.mit.edu/explore/resources/beginner-app-inventor-concept-cards.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Scratch:Home}
+\BIBentryALTinterwordspacing
+``Scratch,'' 2015, last accessed 01-Aug-2015. [Online]. Available:
+  \url{http://scratch.mit.edu}
 \BIBentrySTDinterwordspacing
 
 \bibitem{paper:sherman}
